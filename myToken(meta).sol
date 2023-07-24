@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.18;
-
+pragma solidity ^0.8.0;
 /*
        REQUIREMENTS
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
@@ -15,11 +14,12 @@ pragma solidity 0.8.18;
        to the amount that is supposed to be burned.
 */
 
-contract MyToken {
+contract MyToken 
+{
 
     // public variables here
-    string public tokenName = "meta";
-    string public tokenAbbrv = "mta";
+    string public tokenName = "muth";
+    string public tokenAbbrv = "muth";
     uint public totalSupply = 0;
 
     // mapping variable here
@@ -41,7 +41,3 @@ contract MyToken {
     }
  }
 }
-
-
-
-
